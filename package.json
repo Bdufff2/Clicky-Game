@@ -1,0 +1,8 @@
+{
+  "name": "Clicky-Game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Bdufff2/Clicky-Game.git",
+  "author": "Brian Duff",
+  "license": "MIT"
+}
