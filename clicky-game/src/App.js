@@ -33,10 +33,10 @@ class App extends React.Component {
             <Wrapper>
               {this.state.cards.map(card => (
                 <GameCard
-                  id={cards.id} 
-                  key={cards.id} 
-                  name={cards.name} 
-                  image={cards.image} 
+                  id={card.id} 
+                  key={card.id} 
+                  name={card.name} 
+                  image={card.image} 
                   increaseScore={this.increaseScore}
                 />
               ))}
