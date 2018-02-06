@@ -17,7 +17,7 @@ class Navbar extends Component {
                     <p>Click an image to begin!</p>
                 </div>   
                 <div className="col-md-4">      
-                    <p>Score: {this.props.score} | TopScore: {this.props.topScore}</p>
+                    <p>Score: {this.props.score} | Top Score: {this.props.topScore}</p>
                 </div>
             </div>
             

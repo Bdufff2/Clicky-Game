@@ -1,0 +1,13 @@
+.footer-body {
+    color: #fff;
+    padding-top:15px;
+    padding-bottom: 15px;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    background-color: #6f5499;
+}
+h4 {
+    color:#cdbfe3;
+}
