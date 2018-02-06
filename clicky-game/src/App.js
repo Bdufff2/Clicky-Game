@@ -18,21 +18,21 @@ class App extends React.Component {
             score: this.state.score + 1
         }) 
       }
-
+    markAsClicked = (id) => {
+      const cards = this.state.cards;
+      
+    }
     
     render(){
         return (
             
           <div>
-              <Navbar score={this.state.score} topScore={this.state.topScore} />
+            <Navbar score={this.state.score} topScore={this.state.topScore} />
               {/* <Game increaseScore={this.increaseScore} /> */}
-                    
+            <Title />    
             <Wrapper>
-              <Title>Tiles</Title>
               {this.state.cards.map(card => (
                 <GameCard
-
-                  
                   id={cards.id} 
                   key={cards.id} 
                   name={cards.name} 
